@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.camunda.bpm.webapp</groupId>
+  <artifactId>camunda-webapp-root</artifactId>
+  <packaging>pom</packaging>
+  <name>camunda BPM - webapp - root</name>
+
+  <parent>
+    <groupId>org.camunda.bpm</groupId>
+    <artifactId>camunda-database-settings</artifactId>
+    <version>7.4.0</version>
+    <relativePath>../camunda-bpm-platform/database</relativePath>
+  </parent>
+
+  <profiles>
+    <profile>
+      <id>distro</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <modules>
+
+        <module>core</module>
+        <module>webapp</module>
+        <module>test-utility</module>
+        <module>webjar</module>
+
+      </modules>
+    </profile>
+
+    <profile>
+      <id>distro-ce</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <modules>
+
+        <module>distro/jboss</module>
+        <module>distro/jboss-standalone</module>
+        <module>distro/tomcat</module>
+        <module>distro/tomcat-standalone</module>
+        <module>distro/glassfish</module>
+        <module>distro/glassfish-standalone</module>
+
+      </modules>
+    </profile>
+  </profiles>
+
+  <properties>
+    <version.tomcat>7.0.50</version.tomcat>
+    <tomcat6.connector.http.port>48080</tomcat6.connector.http.port>
+    <tomcat6.connector.http.redirectPort>48443</tomcat6.connector.http.redirectPort>
+    <tomcat6.connector.ajp.port>48009</tomcat6.connector.ajp.port>
+    <tomcat6.connector.ajp.redirectPort>48443</tomcat6.connector.ajp.redirectPort>
+    <tomcat6.server.port>48005</tomcat6.server.port>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.camunda.bpm.webapp</groupId>
+        <artifactId>camunda-webapp-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.camunda.bpm</groupId>
+        <artifactId>camunda-engine-rest</artifactId>
+        <classifier>classes</classifier>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.camunda.bpm</groupId>
+        <artifactId>camunda-engine-rest</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.arquillian</groupId>
+        <artifactId>arquillian-bom</artifactId>
+        <version>1.0.3.Final</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>javax.activation</groupId>
+        <artifactId>activation</artifactId>
+        <version>1.1</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <!-- test plugins -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.16</version>
+          <configuration>
+            <systemPropertyVariables>
+              <myWorkingDir>${project.build.directory}</myWorkingDir>
+            </systemPropertyVariables>
+            <argLine>-XX:MaxPermSize=128m</argLine>
+          </configuration>
+        </plugin>
+
+        <!-- code plugins -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>2.8</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.6</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>1.8</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>1.9.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <repositories>
+    <repository>
+      <id>camunda-nexus</id>
+      <name>camunda BPM Maven Repository</name>
+      <url>https://app.camunda.com/nexus/content/groups/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+</project>

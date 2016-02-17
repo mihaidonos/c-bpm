@@ -1,0 +1,790 @@
+2016-02-04 22:16:28,947 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 47) JBAS013171: Activating Security Subsystem
+2016-02-04 22:16:28,953 INFO  [org.jboss.as.security] (MSC service thread 1-13) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-02-04 22:16:28,955 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 34) JBAS010280: Activating Infinispan subsystem.
+2016-02-04 22:16:28,957 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+2016-02-04 22:16:28,961 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 48) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-02-04 22:16:28,964 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 50) JBAS015537: Activating WebServices Extension
+2016-02-04 22:16:28,996 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 40) JBAS012615: Activated the following JSF Implementations: [main]
+2016-02-04 22:16:29,002 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 49) JBAS017502: Undertow 1.1.8.Final starting
+2016-02-04 22:16:29,006 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017502: Undertow 1.1.8.Final starting
+2016-02-04 22:16:29,036 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 33) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-02-04 22:16:29,041 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 29) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("jdbc-driver" => "mysql")
+]) - failure description: "JBAS010441: Failed to load module for driver [com.mysql]"
+2016-02-04 22:16:29,050 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-7) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-02-04 22:16:29,071 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 29) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-02-04 22:16:29,073 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-11) JBAS010417: Started Driver service with driver-name = h2
+2016-02-04 22:16:29,110 INFO  [org.jboss.as.naming] (MSC service thread 1-16) JBAS011802: Starting Naming Service
+2016-02-04 22:16:29,112 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-02-04 22:16:29,175 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 49) JBAS017527: Creating file handler for path E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final/welcome-content
+2016-02-04 22:16:29,188 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.7.Final
+2016-02-04 22:16:29,197 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017525: Started server default-server.
+2016-02-04 22:16:29,208 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017531: Host default-host starting
+2016-02-04 22:16:29,258 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-02-04 22:16:29,329 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-02-04 22:16:29,329 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:jboss/datasources/ProcessEngine]
+2016-02-04 22:16:29,371 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-10) JBAS015012: Started FileSystemDeploymentService for directory E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\deployments
+2016-02-04 22:16:29,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015876: Starting deployment of "camunda-engine-rest-7.4.0.war" (runtime-name: "camunda-engine-rest-7.4.0.war")
+2016-02-04 22:16:29,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "camunda-webapp-jboss-7.4.0.war" (runtime-name: "camunda-webapp-jboss-7.4.0.war")
+2016-02-04 22:16:29,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015876: Starting deployment of "camunda-h2-webapp-7.4.0.war" (runtime-name: "camunda-h2-webapp-7.4.0.war")
+2016-02-04 22:16:29,376 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "camunda-example-invoice-7.4.0.war" (runtime-name: "camunda-example-invoice-7.4.0.war")
+2016-02-04 22:16:29,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "camunda-welcome.war" (runtime-name: "camunda-welcome.war")
+2016-02-04 22:16:29,434 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+2016-02-04 22:16:29,436 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+2016-02-04 22:16:29,450 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+2016-02-04 22:16:29,462 INFO  [org.camunda.bpm.container.impl.jboss.deployment.processor.ProcessApplicationProcessor] (MSC service thread 1-2) Detected user-provided @ProcessApplication component with name 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'.
+2016-02-04 22:16:29,597 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+2016-02-04 22:16:29,607 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+2016-02-04 22:16:29,607 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+2016-02-04 22:16:29,607 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+2016-02-04 22:16:29,704 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-02-04 22:16:30,191 INFO  [org.camunda.bpm.connect] (ServerService Thread Pool -- 54) CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+2016-02-04 22:16:30,213 INFO  [org.camunda.bpm.connect] (ServerService Thread Pool -- 54) CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+2016-02-04 22:16:30,325 INFO  [org.camunda.bpm.application] (MSC service thread 1-12) ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+2016-02-04 22:16:30,358 ERROR [stderr] (ServerService Thread Pool -- 54) ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider jdk.nashorn.api.scripting.NashornScriptEngineFactory not found
+2016-02-04 22:16:30,444 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017534: Registered web context: /camunda-invoice
+2016-02-04 22:16:30,448 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /camunda-welcome
+2016-02-04 22:16:30,530 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017534: Registered web context: /h2
+2016-02-04 22:16:30,992 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017534: Registered web context: /camunda
+2016-02-04 22:16:31,165 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,171 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,171 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,172 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,172 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,172 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding class resource org.camunda.bpm.engine.rest.impl.DefaultProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,172 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,172 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,172 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,173 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,173 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:16:31,245 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+2016-02-04 22:16:31,288 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017534: Registered web context: /engine-rest
+2016-02-04 22:16:32,541 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03016 Performing database operation 'create' on component 'engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.engine.sql'
+2016-02-04 22:16:32,554 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03016 Performing database operation 'create' on component 'history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.history.sql'
+2016-02-04 22:16:32,560 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03016 Performing database operation 'create' on component 'identity' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.identity.sql'
+2016-02-04 22:16:32,573 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03016 Performing database operation 'create' on component 'case.engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.case.engine.sql'
+2016-02-04 22:16:32,577 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03016 Performing database operation 'create' on component 'case.history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.case.history.sql'
+2016-02-04 22:16:32,580 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03016 Performing database operation 'create' on component 'decision.engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.decision.engine.sql'
+2016-02-04 22:16:32,586 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03016 Performing database operation 'create' on component 'decision.history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.decision.history.sql'
+2016-02-04 22:16:32,599 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03067 No history level property found in database
+2016-02-04 22:16:32,600 INFO  [org.camunda.bpm.engine.persistence] (ServerService Thread Pool -- 54) ENGINE-03065 Creating historyLevel property in database for level: HistoryLevelFull(name=full, id=3)
+2016-02-04 22:16:32,603 INFO  [org.camunda.bpm.engine] (ServerService Thread Pool -- 54) ENGINE-00001 Process Engine default created.
+2016-02-04 22:16:32,604 INFO  [org.camunda.bpm.engine.jobexecutor] (ServerService Thread Pool -- 54) ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor].
+2016-02-04 22:16:32,605 INFO  [org.camunda.bpm.engine.jobexecutor] (job-executor-tp-threads - 1) ENGINE-14018 JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor] starting to acquire jobs
+2016-02-04 22:16:32,607 INFO  [org.camunda.bpm.container.impl.jboss.service.MscManagedProcessEngine] (ServerService Thread Pool -- 54) jndi binding for process engine default is java:global/camunda-bpm-platform/process-engine/default
+2016-02-04 22:16:32,610 INFO  [org.camunda.bpm.container.impl.jboss.service.ProcessApplicationDeploymentService] (ServerService Thread Pool -- 54) Deployment summary for process archive 'camunda-invoice' of process application 'camunda-invoice': 
+
+        invoice.bpmn
+        assign-approver-groups.dmn
+        invoice.png
+
+2016-02-04 22:16:32,882 INFO  [org.camunda.bpm.example.invoice.DemoDataGenerator] (MSC service thread 1-16) Generating demo data for invoice showcase
+2016-02-04 22:16:33,058 ERROR [stderr] (MSC service thread 1-16) ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider jdk.nashorn.api.scripting.NashornScriptEngineFactory not found
+2016-02-04 22:16:33,438 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "dataSource")
+]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => [
+    "jboss.data-source.java:jboss/datasources/dataSource is missing [jboss.jdbc-driver.mysql]",
+    "jboss.driver-demander.java:jboss/datasources/dataSource is missing [jboss.jdbc-driver.mysql]"
+]}
+2016-02-04 22:16:33,441 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "dataSource")
+]) - failure description: {
+    "JBAS014771: Services with missing/unavailable dependencies" => [
+        "jboss.data-source.java:jboss/datasources/dataSource is missing [jboss.jdbc-driver.mysql]",
+        "jboss.driver-demander.java:jboss/datasources/dataSource is missing [jboss.jdbc-driver.mysql]"
+    ],
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.data-source.reference-factory.dataSource",
+            "jboss.naming.context.java.jboss.datasources.dataSource"
+        ],
+        "Services that may be the cause:" => ["jboss.jdbc-driver.mysql"]
+    }
+}
+2016-02-04 22:16:33,472 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-welcome.war" (runtime-name : "camunda-welcome.war")
+2016-02-04 22:16:33,473 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-webapp-jboss-7.4.0.war" (runtime-name : "camunda-webapp-jboss-7.4.0.war")
+2016-02-04 22:16:33,473 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-h2-webapp-7.4.0.war" (runtime-name : "camunda-h2-webapp-7.4.0.war")
+2016-02-04 22:16:33,473 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-example-invoice-7.4.0.war" (runtime-name : "camunda-example-invoice-7.4.0.war")
+2016-02-04 22:16:33,473 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-engine-rest-7.4.0.war" (runtime-name : "camunda-engine-rest-7.4.0.war")
+2016-02-04 22:16:33,474 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.jdbc-driver.mysql (missing) dependents: [service jboss.driver-demander.java:jboss/datasources/dataSource, service jboss.data-source.java:jboss/datasources/dataSource] 
+
+2016-02-04 22:16:33,481 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-02-04 22:16:33,481 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-02-04 22:16:33,481 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.1.Final "Tweek" started (with errors) in 6077ms - Started 569 of 652 services (4 services failed or missing dependencies, 132 services are lazy, passive or on-demand)
+2016-02-04 22:17:33,407 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017535: Unregistered web context: /camunda
+2016-02-04 22:17:33,408 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /h2
+2016-02-04 22:17:33,408 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017535: Unregistered web context: /camunda-invoice
+2016-02-04 22:17:33,407 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017535: Unregistered web context: /camunda-welcome
+2016-02-04 22:17:33,418 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017535: Unregistered web context: /engine-rest
+2016-02-04 22:17:33,428 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017532: Host default-host stopping
+2016-02-04 22:17:33,441 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-02-04 22:17:33,467 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015877: Stopped deployment camunda-welcome.war (runtime-name: camunda-welcome.war) in 97ms
+2016-02-04 22:17:33,473 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015877: Stopped deployment camunda-h2-webapp-7.4.0.war (runtime-name: camunda-h2-webapp-7.4.0.war) in 103ms
+2016-02-04 22:17:33,599 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment camunda-webapp-jboss-7.4.0.war (runtime-name: camunda-webapp-jboss-7.4.0.war) in 221ms
+2016-02-04 22:17:33,643 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment camunda-engine-rest-7.4.0.war (runtime-name: camunda-engine-rest-7.4.0.war) in 267ms
+2016-02-04 22:17:33,751 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017521: Undertow HTTP listener default suspending
+2016-02-04 22:17:33,752 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2016-02-04 22:17:33,753 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) JBAS017506: Undertow 1.1.8.Final stopping
+2016-02-04 22:17:33,757 INFO  [org.camunda.bpm.engine.jobexecutor] (MSC service thread 1-8) ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor]
+2016-02-04 22:17:33,758 INFO  [org.camunda.bpm.engine.jobexecutor] (job-executor-tp-threads - 1) ENGINE-14020 JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor] stopped job acquisition
+2016-02-04 22:17:33,759 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-10) JBAS010409: Unbound data source [java:jboss/datasources/ProcessEngine]
+2016-02-04 22:17:33,760 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-10) JBAS010418: Stopped Driver service with driver-name = h2
+2016-02-04 22:17:33,778 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015877: Stopped deployment camunda-example-invoice-7.4.0.war (runtime-name: camunda-example-invoice-7.4.0.war) in 411ms
+2016-02-04 22:17:33,781 INFO  [org.jboss.as] (MSC service thread 1-15) JBAS015950: WildFly 8.2.1.Final "Tweek" stopped in 410ms
+2016-02-04 22:17:35,231 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-02-04 22:17:35,433 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-02-04 22:17:35,601 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2016-02-04 22:17:35,611 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_79\jre
+	java.io.tmpdir = C:\Users\Miky\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;native;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\OpenVPN\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_79-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_79
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.79-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final
+	jboss.host.name = miky-pc
+	jboss.modules.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = miky-pc
+	jboss.qualified.host.name = miky-pc
+	jboss.server.base.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone
+	jboss.server.config.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\configuration
+	jboss.server.data.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\data
+	jboss.server.deploy.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\data\content
+	jboss.server.log.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\log
+	jboss.server.name = miky-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/modules
+	org.jboss.boot.log.file = E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x (1)
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_79\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\bin
+	user.home = C:\Users\Miky
+	user.language = en
+	user.name = Miky
+	user.script = 
+	user.timezone = Europe/Athens
+	user.variant = 
+2016-02-04 22:17:35,613 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:52694 -Dprogram.name=JBossTools: WildFly  8.x (1) -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2016-02-04 22:17:36,455 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found camunda-welcome.war in deployment directory. To trigger deployment create a file called camunda-welcome.war.dodeploy
+2016-02-04 22:17:36,494 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-02-04 22:17:36,508 INFO  [org.xnio] (MSC service thread 1-15) XNIO version 3.3.0.Final
+2016-02-04 22:17:36,515 INFO  [org.xnio.nio] (MSC service thread 1-15) XNIO NIO Implementation Version 3.3.0.Final
+2016-02-04 22:17:36,528 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 34) JBAS010280: Activating Infinispan subsystem.
+2016-02-04 22:17:36,533 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 47) JBAS013171: Activating Security Subsystem
+2016-02-04 22:17:36,538 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+2016-02-04 22:17:36,544 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 50) JBAS015537: Activating WebServices Extension
+2016-02-04 22:17:36,556 INFO  [org.jboss.as.security] (MSC service thread 1-8) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-02-04 22:17:36,558 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-02-04 22:17:36,571 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 48) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-02-04 22:17:36,578 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 29) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-02-04 22:17:36,583 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 33) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-02-04 22:17:36,585 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 40) JBAS012615: Activated the following JSF Implementations: [main]
+2016-02-04 22:17:36,585 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-13) JBAS010417: Started Driver service with driver-name = mysql
+2016-02-04 22:17:36,591 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 29) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-02-04 22:17:36,592 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-10) JBAS010417: Started Driver service with driver-name = h2
+2016-02-04 22:17:36,600 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+2016-02-04 22:17:36,607 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017502: Undertow 1.1.8.Final starting
+2016-02-04 22:17:36,608 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 49) JBAS017502: Undertow 1.1.8.Final starting
+2016-02-04 22:17:36,616 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-13) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-02-04 22:17:36,630 INFO  [org.jboss.remoting] (MSC service thread 1-15) JBoss Remoting version 4.0.7.Final
+2016-02-04 22:17:36,708 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 49) JBAS017527: Creating file handler for path E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final/welcome-content
+2016-02-04 22:17:36,719 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) JBAS017525: Started server default-server.
+2016-02-04 22:17:36,728 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017531: Host default-host starting
+2016-02-04 22:17:36,783 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-02-04 22:17:36,911 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-12) JBAS015012: Started FileSystemDeploymentService for directory E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\deployments
+2016-02-04 22:17:36,912 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015876: Starting deployment of "camunda-example-invoice-7.4.0.war" (runtime-name: "camunda-example-invoice-7.4.0.war")
+2016-02-04 22:17:36,912 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "camunda-engine-rest-7.4.0.war" (runtime-name: "camunda-engine-rest-7.4.0.war")
+2016-02-04 22:17:36,912 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "camunda-webapp-jboss-7.4.0.war" (runtime-name: "camunda-webapp-jboss-7.4.0.war")
+2016-02-04 22:17:36,912 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "camunda-h2-webapp-7.4.0.war" (runtime-name: "camunda-h2-webapp-7.4.0.war")
+2016-02-04 22:17:36,913 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015876: Starting deployment of "camunda-welcome.war" (runtime-name: "camunda-welcome.war")
+2016-02-04 22:17:36,928 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ProcessEngine]
+2016-02-04 22:17:36,929 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/dataSource]
+2016-02-04 22:17:36,930 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-02-04 22:17:36,986 INFO  [org.camunda.bpm.container.impl.jboss.deployment.processor.ProcessApplicationProcessor] (MSC service thread 1-10) Detected user-provided @ProcessApplication component with name 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'.
+2016-02-04 22:17:37,045 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+2016-02-04 22:17:37,054 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+2016-02-04 22:17:37,074 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+2016-02-04 22:17:37,221 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-02-04 22:17:37,265 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+2016-02-04 22:17:37,324 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+2016-02-04 22:17:37,324 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+2016-02-04 22:17:37,324 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+2016-02-04 22:17:37,841 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /camunda-welcome
+2016-02-04 22:17:37,858 INFO  [org.camunda.bpm.connect] (ServerService Thread Pool -- 54) CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+2016-02-04 22:17:37,871 INFO  [org.camunda.bpm.connect] (ServerService Thread Pool -- 54) CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+2016-02-04 22:17:37,918 ERROR [stderr] (ServerService Thread Pool -- 54) ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider jdk.nashorn.api.scripting.NashornScriptEngineFactory not found
+2016-02-04 22:17:37,921 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017534: Registered web context: /h2
+2016-02-04 22:17:37,981 INFO  [org.camunda.bpm.application] (MSC service thread 1-16) ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+2016-02-04 22:17:37,986 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017534: Registered web context: /camunda-invoice
+2016-02-04 22:17:38,306 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017534: Registered web context: /camunda
+2016-02-04 22:17:38,479 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,484 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,484 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,485 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,485 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,485 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,486 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,486 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,486 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding class resource org.camunda.bpm.engine.rest.impl.DefaultProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,486 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,486 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:17:38,534 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+2016-02-04 22:17:38,571 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017534: Registered web context: /engine-rest
+2016-02-04 22:17:41,923 INFO  [org.camunda.bpm.engine] (ServerService Thread Pool -- 54) ENGINE-00001 Process Engine default created.
+2016-02-04 22:17:41,924 INFO  [org.camunda.bpm.engine.jobexecutor] (ServerService Thread Pool -- 54) ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor].
+2016-02-04 22:17:41,926 INFO  [org.camunda.bpm.engine.jobexecutor] (job-executor-tp-threads - 1) ENGINE-14018 JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor] starting to acquire jobs
+2016-02-04 22:17:41,927 INFO  [org.camunda.bpm.container.impl.jboss.service.MscManagedProcessEngine] (ServerService Thread Pool -- 54) jndi binding for process engine default is java:global/camunda-bpm-platform/process-engine/default
+2016-02-04 22:17:41,929 INFO  [org.camunda.bpm.container.impl.jboss.service.ProcessApplicationDeploymentService] (ServerService Thread Pool -- 54) Deployment summary for process archive 'camunda-invoice' of process application 'camunda-invoice': 
+
+        invoice.bpmn
+        assign-approver-groups.dmn
+        invoice.png
+
+2016-02-04 22:17:42,504 ERROR [stderr] (MSC service thread 1-9) ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider jdk.nashorn.api.scripting.NashornScriptEngineFactory not found
+2016-02-04 22:17:43,190 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-welcome.war" (runtime-name : "camunda-welcome.war")
+2016-02-04 22:17:43,190 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-webapp-jboss-7.4.0.war" (runtime-name : "camunda-webapp-jboss-7.4.0.war")
+2016-02-04 22:17:43,190 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-h2-webapp-7.4.0.war" (runtime-name : "camunda-h2-webapp-7.4.0.war")
+2016-02-04 22:17:43,191 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-example-invoice-7.4.0.war" (runtime-name : "camunda-example-invoice-7.4.0.war")
+2016-02-04 22:17:43,191 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-engine-rest-7.4.0.war" (runtime-name : "camunda-engine-rest-7.4.0.war")
+2016-02-04 22:17:43,197 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-02-04 22:17:43,198 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-02-04 22:17:43,198 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 8181ms - Started 574 of 653 services (132 services are lazy, passive or on-demand)
+2016-02-04 22:19:14,437 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,441 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,442 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Adding class resource org.camunda.bpm.cockpit.impl.plugin.jobdefinition.resources.JobDefinitionRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,442 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Adding class resource org.camunda.bpm.cockpit.impl.plugin.decisionList.resources.DecisionListRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,442 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Adding class resource org.camunda.bpm.cockpit.impl.plugin.base.resources.BaseRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,442 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,442 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,443 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-8) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:19:14,709 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,712 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,712 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,712 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,712 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,712 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,713 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,713 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,713 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,713 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-11) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:19:14,724 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:19:14,726 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:19:14,726 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding class resource org.camunda.bpm.admin.impl.web.SetupResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:19:14,726 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:19:14,726 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:19:14,727 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding class resource org.camunda.bpm.webapp.impl.security.auth.UserAuthenticationResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:19:14,727 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:24:03,979 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017535: Unregistered web context: /camunda-invoice
+2016-02-04 22:24:03,980 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Unbound data source [java:jboss/datasources/dataSource]
+2016-02-04 22:24:03,980 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017535: Unregistered web context: /h2
+2016-02-04 22:24:03,980 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017535: Unregistered web context: /camunda
+2016-02-04 22:24:03,980 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017535: Unregistered web context: /camunda-welcome
+2016-02-04 22:24:03,982 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017535: Unregistered web context: /engine-rest
+2016-02-04 22:24:03,988 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-13) JBAS010418: Stopped Driver service with driver-name = mysql
+2016-02-04 22:24:03,995 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017532: Host default-host stopping
+2016-02-04 22:24:04,001 INFO  [org.camunda.bpm.engine.jobexecutor] (MSC service thread 1-5) ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor]
+2016-02-04 22:24:04,001 INFO  [org.camunda.bpm.engine.jobexecutor] (job-executor-tp-threads - 1) ENGINE-14020 JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor] stopped job acquisition
+2016-02-04 22:24:04,005 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-02-04 22:24:04,006 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010409: Unbound data source [java:jboss/datasources/ProcessEngine]
+2016-02-04 22:24:04,009 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = h2
+2016-02-04 22:24:04,009 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017521: Undertow HTTP listener default suspending
+2016-02-04 22:24:04,011 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2016-02-04 22:24:04,012 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017506: Undertow 1.1.8.Final stopping
+2016-02-04 22:24:04,018 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment camunda-welcome.war (runtime-name: camunda-welcome.war) in 57ms
+2016-02-04 22:24:04,025 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015877: Stopped deployment camunda-h2-webapp-7.4.0.war (runtime-name: camunda-h2-webapp-7.4.0.war) in 64ms
+2016-02-04 22:24:04,045 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015877: Stopped deployment camunda-example-invoice-7.4.0.war (runtime-name: camunda-example-invoice-7.4.0.war) in 84ms
+2016-02-04 22:24:04,128 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment camunda-webapp-jboss-7.4.0.war (runtime-name: camunda-webapp-jboss-7.4.0.war) in 167ms
+2016-02-04 22:24:04,172 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015877: Stopped deployment camunda-engine-rest-7.4.0.war (runtime-name: camunda-engine-rest-7.4.0.war) in 211ms
+2016-02-04 22:24:04,175 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015950: WildFly 8.2.1.Final "Tweek" stopped in 203ms
+2016-02-04 22:24:43,225 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-02-04 22:24:43,441 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-02-04 22:24:43,504 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2016-02-04 22:24:43,509 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_79\jre
+	java.io.tmpdir = C:\Users\Miky\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\jre\bin;native;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\OpenVPN\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_79-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_79
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.79-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final
+	jboss.host.name = miky-pc
+	jboss.modules.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = miky-pc
+	jboss.qualified.host.name = miky-pc
+	jboss.server.base.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone
+	jboss.server.config.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\configuration
+	jboss.server.data.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\data
+	jboss.server.deploy.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\data\content
+	jboss.server.log.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\log
+	jboss.server.name = miky-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/modules
+	org.jboss.boot.log.file = E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x (1)
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_79\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\bin
+	user.home = C:\Users\Miky
+	user.language = en
+	user.name = Miky
+	user.script = 
+	user.timezone = Europe/Athens
+	user.variant = 
+2016-02-04 22:24:43,511 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55094 -Dprogram.name=JBossTools: WildFly  8.x (1) -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=E:/WORK/Projects/App/testServer/server/wildfly-8.2.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2016-02-04 22:24:44,412 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found camunda-welcome.war in deployment directory. To trigger deployment create a file called camunda-welcome.war.dodeploy
+2016-02-04 22:24:44,525 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-02-04 22:24:44,539 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2016-02-04 22:24:44,546 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2016-02-04 22:24:44,565 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 48) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-02-04 22:24:44,566 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 47) JBAS013171: Activating Security Subsystem
+2016-02-04 22:24:44,569 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 40) JBAS012615: Activated the following JSF Implementations: [main]
+2016-02-04 22:24:44,569 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 33) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-02-04 22:24:44,579 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-02-04 22:24:44,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 34) JBAS010280: Activating Infinispan subsystem.
+2016-02-04 22:24:44,583 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+2016-02-04 22:24:44,591 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 50) JBAS015537: Activating WebServices Extension
+2016-02-04 22:24:44,606 INFO  [org.jboss.as.security] (MSC service thread 1-8) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-02-04 22:24:44,637 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 49) JBAS017502: Undertow 1.1.8.Final starting
+2016-02-04 22:24:44,637 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017502: Undertow 1.1.8.Final starting
+2016-02-04 22:24:44,670 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+2016-02-04 22:24:44,673 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-10) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-02-04 22:24:44,680 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 29) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-02-04 22:24:44,687 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-10) JBAS010417: Started Driver service with driver-name = mysql
+2016-02-04 22:24:44,689 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 29) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-02-04 22:24:44,692 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-15) JBAS010417: Started Driver service with driver-name = h2
+2016-02-04 22:24:44,713 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.7.Final
+2016-02-04 22:24:44,757 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 49) JBAS017527: Creating file handler for path E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final/welcome-content
+2016-02-04 22:24:44,775 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+2016-02-04 22:24:44,780 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2016-02-04 22:24:44,869 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-02-04 22:24:44,925 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:jboss/datasources/ProcessEngine]
+2016-02-04 22:24:44,925 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-02-04 22:24:44,978 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) JBAS015012: Started FileSystemDeploymentService for directory E:\WORK\Projects\App\testServer\server\wildfly-8.2.1.Final\standalone\deployments
+2016-02-04 22:24:44,982 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "camunda-webapp-jboss-7.4.0.war" (runtime-name: "camunda-webapp-jboss-7.4.0.war")
+2016-02-04 22:24:44,982 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015876: Starting deployment of "camunda-welcome.war" (runtime-name: "camunda-welcome.war")
+2016-02-04 22:24:44,982 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "camunda-h2-webapp-7.4.0.war" (runtime-name: "camunda-h2-webapp-7.4.0.war")
+2016-02-04 22:24:44,983 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "camunda-example-invoice-7.4.0.war" (runtime-name: "camunda-example-invoice-7.4.0.war")
+2016-02-04 22:24:44,983 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "camunda-engine-rest-7.4.0.war" (runtime-name: "camunda-engine-rest-7.4.0.war")
+2016-02-04 22:24:45,050 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'ProcessApplicationEventListenerPlugin' activated on process engine 'default'
+2016-02-04 22:24:45,052 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'SpinProcessEnginePlugin' activated on process engine 'default'
+2016-02-04 22:24:45,066 INFO  [org.camunda.bpm.container.impl.jboss.deployment.processor.ProcessApplicationProcessor] (MSC service thread 1-16) Detected user-provided @ProcessApplication component with name 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'.
+2016-02-04 22:24:45,067 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+2016-02-04 22:24:45,225 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+2016-02-04 22:24:45,234 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+2016-02-04 22:24:45,234 INFO  [org.camunda.spin] (ServerService Thread Pool -- 54) SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+2016-02-04 22:24:45,234 INFO  [org.camunda.bpm.engine.cfg] (ServerService Thread Pool -- 54) ENGINE-12003 Plugin 'ConnectProcessEnginePlugin' activated on process engine 'default'
+2016-02-04 22:24:45,589 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-02-04 22:24:45,786 INFO  [org.camunda.bpm.connect] (ServerService Thread Pool -- 54) CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+2016-02-04 22:24:45,799 INFO  [org.camunda.bpm.connect] (ServerService Thread Pool -- 54) CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+2016-02-04 22:24:45,843 INFO  [org.camunda.bpm.application] (MSC service thread 1-11) ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.example.invoice.InvoiceProcessApplication'
+2016-02-04 22:24:45,848 ERROR [stderr] (ServerService Thread Pool -- 54) ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider jdk.nashorn.api.scripting.NashornScriptEngineFactory not found
+2016-02-04 22:24:45,934 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017534: Registered web context: /camunda-welcome
+2016-02-04 22:24:45,937 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017534: Registered web context: /camunda-invoice
+2016-02-04 22:24:46,058 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017534: Registered web context: /h2
+2016-02-04 22:24:46,224 ERROR [stderr] (ServerService Thread Pool -- 54) Thu Feb 04 22:24:46 EET 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-02-04 22:24:46,251 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017534: Registered web context: /camunda
+2016-02-04 22:24:46,422 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,427 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,427 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,428 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,429 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding class resource org.camunda.bpm.engine.rest.impl.DefaultProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,429 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,430 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,430 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,430 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,430 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,430 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+2016-02-04 22:24:46,489 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-10) HV000001: Hibernate Validator 5.1.3.Final
+2016-02-04 22:24:46,545 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017534: Registered web context: /engine-rest
+2016-02-04 22:24:47,850 INFO  [org.camunda.bpm.engine] (ServerService Thread Pool -- 54) ENGINE-00001 Process Engine default created.
+2016-02-04 22:24:47,851 INFO  [org.camunda.bpm.engine.jobexecutor] (ServerService Thread Pool -- 54) ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor].
+2016-02-04 22:24:47,853 INFO  [org.camunda.bpm.engine.jobexecutor] (job-executor-tp-threads - 1) ENGINE-14018 JobExecutor[org.camunda.bpm.container.impl.jboss.service.MscRuntimeContainerJobExecutor] starting to acquire jobs
+2016-02-04 22:24:47,854 INFO  [org.camunda.bpm.container.impl.jboss.service.MscManagedProcessEngine] (ServerService Thread Pool -- 54) jndi binding for process engine default is java:global/camunda-bpm-platform/process-engine/default
+2016-02-04 22:24:47,856 INFO  [org.camunda.bpm.container.impl.jboss.service.ProcessApplicationDeploymentService] (ServerService Thread Pool -- 54) Deployment summary for process archive 'camunda-invoice' of process application 'camunda-invoice': 
+
+        invoice.bpmn
+        assign-approver-groups.dmn
+        invoice.png
+
+2016-02-04 22:24:47,891 ERROR [stderr] (job-executor-tp-threads - 1) Thu Feb 04 22:24:47 EET 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-02-04 22:24:48,126 INFO  [org.camunda.bpm.example.invoice.DemoDataGenerator] (MSC service thread 1-1) Generating demo data for invoice showcase
+2016-02-04 22:24:48,393 ERROR [stderr] (MSC service thread 1-1) ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider jdk.nashorn.api.scripting.NashornScriptEngineFactory not found
+2016-02-04 22:24:48,974 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-welcome.war" (runtime-name : "camunda-welcome.war")
+2016-02-04 22:24:48,975 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-webapp-jboss-7.4.0.war" (runtime-name : "camunda-webapp-jboss-7.4.0.war")
+2016-02-04 22:24:48,975 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-h2-webapp-7.4.0.war" (runtime-name : "camunda-h2-webapp-7.4.0.war")
+2016-02-04 22:24:48,975 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-example-invoice-7.4.0.war" (runtime-name : "camunda-example-invoice-7.4.0.war")
+2016-02-04 22:24:48,975 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 30) JBAS018559: Deployed "camunda-engine-rest-7.4.0.war" (runtime-name : "camunda-engine-rest-7.4.0.war")
+2016-02-04 22:24:48,985 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-02-04 22:24:48,986 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-02-04 22:24:48,986 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 5991ms - Started 569 of 648 services (132 services are lazy, passive or on-demand)
+2016-02-04 22:25:11,502 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,508 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Adding class resource org.camunda.bpm.cockpit.impl.plugin.base.resources.BaseRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,509 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,509 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,509 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Adding class resource org.camunda.bpm.cockpit.impl.plugin.decisionList.resources.DecisionListRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,509 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,510 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,510 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-7) Adding class resource org.camunda.bpm.cockpit.impl.plugin.jobdefinition.resources.JobDefinitionRootResource from Application class org.camunda.bpm.cockpit.impl.web.CockpitApplication
+2016-02-04 22:25:11,730 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,733 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class org.camunda.bpm.engine.rest.mapper.MultipartPayloadProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,733 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding class resource org.camunda.bpm.engine.rest.impl.NamedProcessEngineRestServiceImpl from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,733 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class org.camunda.bpm.engine.rest.exception.JsonParseExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,733 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,733 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,734 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class org.camunda.bpm.engine.rest.exception.ProcessEngineExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,734 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class org.camunda.bpm.engine.rest.exception.JsonMappingExceptionHandler from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,734 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,734 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-10) Adding provider class org.camunda.bpm.engine.rest.hal.JacksonHalJsonProvider from Application class org.camunda.bpm.webapp.impl.engine.EngineRestApplication
+2016-02-04 22:25:11,745 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:25:11,748 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding class resource org.camunda.bpm.admin.impl.web.SetupResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:25:11,748 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding class resource org.camunda.bpm.webapp.impl.security.auth.UserAuthenticationResource from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:25:11,748 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:25:11,748 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:25:11,748 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:25:11,749 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-12) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.admin.impl.web.AdminApplication
+2016-02-04 22:25:15,827 ERROR [org.camunda.bpm.engine.context] (default task-17) ENGINE-16004 Exception while closing command context: no deployed process definition found with id 'invoice:1:2ee1c840-cb7c-11e5-86c8-022920524153': processDefinition is null: org.camunda.bpm.engine.exception.NullValueException: no deployed process definition found with id 'invoice:1:2ee1c840-cb7c-11e5-86c8-022920524153': processDefinition is null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.7.0_79]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) [rt.jar:1.7.0_79]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.7.0_79]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) [rt.jar:1.7.0_79]
+	at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:329) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:49) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:44) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.persistence.deploy.DeploymentCache.findDeployedProcessDefinitionById(DeploymentCache.java:91) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.cmd.GetDeploymentProcessDefinitionCmd.execute(GetDeploymentProcessDefinitionCmd.java:42) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.cmd.GetDeploymentProcessDefinitionCmd.execute(GetDeploymentProcessDefinitionCmd.java:30) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.interceptor.CommandExecutorImpl.execute(CommandExecutorImpl.java:24) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:95) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.interceptor.JtaTransactionInterceptor.execute(JtaTransactionInterceptor.java:58) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.impl.RepositoryServiceImpl.getProcessDefinition(RepositoryServiceImpl.java:146) [camunda-engine-7.4.0.jar:7.4.0]
+	at org.camunda.bpm.engine.rest.sub.repository.impl.ProcessDefinitionResourceImpl.getProcessDefinition(ProcessDefinitionResourceImpl.java:81) [camunda-engine-rest-7.4.0-classes.jar:7.4.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_79]
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:140) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:109) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:135) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:103) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51) [resteasy-jaxrs-3.0.10.Final.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at org.camunda.bpm.engine.rest.filter.CacheControlFilter.doFilter(CacheControlFilter.java:41) [camunda-engine-rest-7.4.0-classes.jar:7.4.0]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at org.camunda.bpm.webapp.impl.security.filter.SecurityFilter.doFilterSecure(SecurityFilter.java:67) [classes:]
+	at org.camunda.bpm.webapp.impl.security.filter.SecurityFilter.doFilter(SecurityFilter.java:51) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter$1.execute(AuthenticationFilter.java:59) [classes:]
+	at org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter$1.execute(AuthenticationFilter.java:56) [classes:]
+	at org.camunda.bpm.webapp.impl.security.SecurityActions.runWithAuthentications(SecurityActions.java:38) [classes:]
+	at org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter.doFilter(AuthenticationFilter.java:56) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:248) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:77) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:167) [undertow-servlet-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:761) [undertow-core-1.1.8.Final.jar:1.1.8.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+2016-02-04 22:25:15,835 WARNING [ExceptionHandler] (default task-17) org.camunda.bpm.engine.rest.exception.InvalidRequestException: No matching definition with id invoice:1:2ee1c840-cb7c-11e5-86c8-022920524153
+	at org.camunda.bpm.engine.rest.sub.repository.impl.ProcessDefinitionResourceImpl.getProcessDefinition(ProcessDefinitionResourceImpl.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:140)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:109)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:135)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:103)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130)
+	at org.camunda.bpm.engine.rest.filter.CacheControlFilter.doFilter(CacheControlFilter.java:41)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132)
+	at org.camunda.bpm.webapp.impl.security.filter.SecurityFilter.doFilterSecure(SecurityFilter.java:67)
+	at org.camunda.bpm.webapp.impl.security.filter.SecurityFilter.doFilter(SecurityFilter.java:51)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132)
+	at org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter$1.execute(AuthenticationFilter.java:59)
+	at org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter$1.execute(AuthenticationFilter.java:56)
+	at org.camunda.bpm.webapp.impl.security.SecurityActions.runWithAuthentications(SecurityActions.java:38)
+	at org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter.doFilter(AuthenticationFilter.java:56)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70)
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:248)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:77)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:167)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:761)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.camunda.bpm.engine.exception.NullValueException: no deployed process definition found with id 'invoice:1:2ee1c840-cb7c-11e5-86c8-022920524153': processDefinition is null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.camunda.bpm.engine.impl.util.EnsureUtil.generateException(EnsureUtil.java:329)
+	at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:49)
+	at org.camunda.bpm.engine.impl.util.EnsureUtil.ensureNotNull(EnsureUtil.java:44)
+	at org.camunda.bpm.engine.impl.persistence.deploy.DeploymentCache.findDeployedProcessDefinitionById(DeploymentCache.java:91)
+	at org.camunda.bpm.engine.impl.cmd.GetDeploymentProcessDefinitionCmd.execute(GetDeploymentProcessDefinitionCmd.java:42)
+	at org.camunda.bpm.engine.impl.cmd.GetDeploymentProcessDefinitionCmd.execute(GetDeploymentProcessDefinitionCmd.java:30)
+	at org.camunda.bpm.engine.impl.interceptor.CommandExecutorImpl.execute(CommandExecutorImpl.java:24)
+	at org.camunda.bpm.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:95)
+	at org.camunda.bpm.engine.impl.interceptor.JtaTransactionInterceptor.execute(JtaTransactionInterceptor.java:58)
+	at org.camunda.bpm.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.camunda.bpm.engine.impl.RepositoryServiceImpl.getProcessDefinition(RepositoryServiceImpl.java:146)
+	at org.camunda.bpm.engine.rest.sub.repository.impl.ProcessDefinitionResourceImpl.getProcessDefinition(ProcessDefinitionResourceImpl.java:81)
+	... 58 more
+
+2016-02-04 22:26:19,766 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "pizza-order.war" (runtime-name: "pizza-order.war")
+2016-02-04 22:26:19,807 INFO  [org.camunda.bpm.container.impl.jboss.deployment.processor.ProcessApplicationProcessor] (MSC service thread 1-4) Detected user-provided @ProcessApplication component with name 'DefaultEjbProcessApplication'.
+2016-02-04 22:26:19,835 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for primary
+2016-02-04 22:26:19,863 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'pizza-order.war#primary'
+2016-02-04 22:26:19,870 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 65) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-02-04 22:26:19,915 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 65) HHH000412: Hibernate Core {4.3.7.Final}
+2016-02-04 22:26:19,917 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000206: hibernate.properties not found
+2016-02-04 22:26:19,918 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 65) HHH000021: Bytecode provider name : javassist
+2016-02-04 22:26:20,001 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016002: Processing weld deployment pizza-order.war
+2016-02-04 22:26:20,028 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-9) JNDI bindings for session bean named OrderBusinessLogic in deployment unit deployment "pizza-order.war" are as follows:
+
+	java:global/pizza-order/OrderBusinessLogic!org.camunda.bpm.getstarted.pizza.OrderBusinessLogic
+	java:app/pizza-order/OrderBusinessLogic!org.camunda.bpm.getstarted.pizza.OrderBusinessLogic
+	java:module/OrderBusinessLogic!org.camunda.bpm.getstarted.pizza.OrderBusinessLogic
+	java:global/pizza-order/OrderBusinessLogic
+	java:app/pizza-order/OrderBusinessLogic
+	java:module/OrderBusinessLogic
+
+2016-02-04 22:26:20,028 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-9) JNDI bindings for session bean named DefaultEjbProcessApplication in deployment unit deployment "pizza-order.war" are as follows:
+
+	java:global/pizza-order/DefaultEjbProcessApplication!org.camunda.bpm.application.ProcessApplicationInterface
+	java:app/pizza-order/DefaultEjbProcessApplication!org.camunda.bpm.application.ProcessApplicationInterface
+	java:module/DefaultEjbProcessApplication!org.camunda.bpm.application.ProcessApplicationInterface
+	java:global/pizza-order/DefaultEjbProcessApplication
+	java:app/pizza-order/DefaultEjbProcessApplication
+	java:module/DefaultEjbProcessApplication
+
+2016-02-04 22:26:20,135 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: pizza-order.war
+2016-02-04 22:26:20,160 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.2.6 (Final)
+2016-02-04 22:26:20,170 INFO  [org.jboss.weld.deployer] (MSC service thread 1-10) JBAS016008: Starting weld service for deployment pizza-order.war
+2016-02-04 22:26:20,267 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'pizza-order.war#primary'
+2016-02-04 22:26:20,320 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 65) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2016-02-04 22:26:20,359 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 65) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-02-04 22:26:20,427 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 65) HHH000397: Using ASTQueryTranslatorFactory
+2016-02-04 22:26:20,615 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 65) HHH000227: Running hbm2ddl schema export
+2016-02-04 22:26:20,617 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: drop table if exists OrderEntity
+2016-02-04 22:26:20,623 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: drop table if exists hibernate_sequence
+2016-02-04 22:26:20,624 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: create table OrderEntity (id bigint not null, address varchar(255), approved bit not null, customer varchar(255), pizza varchar(255), version bigint not null, primary key (id))
+2016-02-04 22:26:20,643 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: create table hibernate_sequence ( next_val bigint )
+2016-02-04 22:26:20,656 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: insert into hibernate_sequence values ( 1 )
+2016-02-04 22:26:20,659 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 65) HHH000230: Schema export complete
+2016-02-04 22:26:21,529 INFO  [org.camunda.bpm.container.impl.jboss.service.ProcessApplicationDeploymentService] (ServerService Thread Pool -- 66) Deployment summary for process archive 'pizza-order' of process application 'pizza-order': 
+
+        pizza-order.bpmn
+
+2016-02-04 22:26:21,550 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Initializing Mojarra 2.2.8-jbossorg-1 20140822-1131 for context '/pizza-order'
+2016-02-04 22:26:22,099 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017534: Registered web context: /pizza-order
+2016-02-04 22:26:22,131 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018559: Deployed "pizza-order.war" (runtime-name : "pizza-order.war")
+2016-02-04 22:27:27,380 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-54) Deploying javax.ws.rs.core.Application: class org.camunda.bpm.tasklist.impl.web.TasklistApplication
+2016-02-04 22:27:27,381 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-54) Adding class resource org.camunda.bpm.tasklist.impl.plugin.standalonetask.resources.StandaloneTaskRootResource from Application class org.camunda.bpm.tasklist.impl.web.TasklistApplication
+2016-02-04 22:27:27,381 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-54) Adding provider class org.camunda.bpm.engine.rest.exception.RestExceptionHandler from Application class org.camunda.bpm.tasklist.impl.web.TasklistApplication
+2016-02-04 22:27:27,381 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-54) Adding provider class org.camunda.bpm.engine.rest.mapper.JacksonConfigurator from Application class org.camunda.bpm.tasklist.impl.web.TasklistApplication
+2016-02-04 22:27:27,381 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-54) Adding provider class org.camunda.bpm.engine.rest.exception.ExceptionHandler from Application class org.camunda.bpm.tasklist.impl.web.TasklistApplication
+2016-02-04 22:27:27,381 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (default task-54) Adding provider class com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider from Application class org.camunda.bpm.tasklist.impl.web.TasklistApplication
+2016-02-04 22:27:49,944 INFO  [stdout] (default task-70) Hibernate: select next_val as id_val from hibernate_sequence for update
+2016-02-04 22:27:49,945 INFO  [stdout] (default task-70) Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+2016-02-04 22:27:49,965 INFO  [stdout] (default task-70) Hibernate: insert into OrderEntity (address, approved, customer, pizza, version, id) values (?, ?, ?, ?, ?, ?)
