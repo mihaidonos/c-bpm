@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://pizza.getstarted.bpm.camunda.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="HistoryRestService" targetNamespace="http://pizza.getstarted.bpm.camunda.org/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://pizza.getstarted.bpm.camunda.org/" elementFormDefault="unqualified" targetNamespace="http://pizza.getstarted.bpm.camunda.org/" version="1.0">
+
+  <xs:element name="getAllRunningProcessInstances" type="tns:getAllRunningProcessInstances"></xs:element>
+
+  <xs:element name="getAllRunningProcessInstancesResponse" type="tns:getAllRunningProcessInstancesResponse"></xs:element>
+
+  <xs:complexType name="getAllRunningProcessInstances">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getAllRunningProcessInstancesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getAllRunningProcessInstancesResponse">
+    <wsdl:part element="tns:getAllRunningProcessInstancesResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllRunningProcessInstances">
+    <wsdl:part element="tns:getAllRunningProcessInstances" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="HistoryRest">
+    <wsdl:operation name="getAllRunningProcessInstances">
+      <wsdl:input message="tns:getAllRunningProcessInstances" name="getAllRunningProcessInstances">
+    </wsdl:input>
+      <wsdl:output message="tns:getAllRunningProcessInstancesResponse" name="getAllRunningProcessInstancesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HistoryRestServiceSoapBinding" type="tns:HistoryRest">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"></soap:binding>
+    <wsdl:operation name="getAllRunningProcessInstances">
+      <soap:operation soapAction="" style="document"></soap:operation>
+      <wsdl:input name="getAllRunningProcessInstances">
+        <soap:body use="literal"></soap:body>
+      </wsdl:input>
+      <wsdl:output name="getAllRunningProcessInstancesResponse">
+        <soap:body use="literal"></soap:body>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HistoryRestService">
+    <wsdl:port binding="tns:HistoryRestServiceSoapBinding" name="HistoryRestPort">
+      <soap:address location="http://Miky-PC:8080/pizza-order/HistoryRest"></soap:address>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
